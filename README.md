@@ -1,13 +1,12 @@
 # Chores Bot
 
-A Slack bot for managing dishwasher chores rotation in your household.
+A Slack bot for managing dishwasher chores rotation at lxm.
 
 ## Features
 
 - Daily reminders for who needs to unload the dishwasher
 - Weekly schedule posts every Sunday
 - Ability to opt-out of next rotation
-- Simple command interface
 
 ## Setup
 
