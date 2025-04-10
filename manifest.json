@@ -1,0 +1,34 @@
+{
+  "display_information": {
+    "name": "Chores Bot",
+    "description": "A bot to manage dishwasher chores rotation in your household",
+    "background_color": "#4A154B"
+  },
+  "features": {
+    "bot_user": {
+      "display_name": "Chores Bot",
+      "always_online": true
+    },
+    "slash_commands": [
+      {
+        "command": "/chores",
+        "description": "View schedule or manage your rotation status",
+        "usage_hint": "[opt-out|opt-in]",
+        "should_escape": false
+      }
+    ]
+  },
+  "oauth_config": {
+    "scopes": {
+      "bot": [
+        "chat:write",
+        "commands"
+      ]
+    }
+  },
+  "settings": {
+    "org_deploy_enabled": false,
+    "socket_mode_enabled": true,
+    "token_rotation_enabled": false
+  }
+}
